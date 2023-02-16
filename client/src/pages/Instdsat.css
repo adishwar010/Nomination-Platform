@@ -1,0 +1,17 @@
+.jass {
+  height: 250px;
+  left: 4px;
+  background: linear-gradient(90.28deg, #00559c 0.2%, #00a0ee 67.16%);
+  clip-path: polygon(
+    50% 0%,
+    100% 0,
+    100% 35%,
+    100% 70%,
+    100% 87%,
+    45% 96%,
+    0 93%,
+    0% 70%,
+    0% 35%,
+    0 0
+  );
+}

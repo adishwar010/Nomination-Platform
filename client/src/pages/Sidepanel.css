@@ -1,0 +1,83 @@
+.hem {
+  /* height: 430px; */
+}
+.circle1 {
+  color: #0468bf;
+}
+.circle2 {
+  color: rgb(212, 70, 51);
+}
+.circle3 {
+  color: #398a39;
+}
+.circle4 {
+  color: #a40503;
+}
+.circle5 {
+  color: rgb(212, 210, 65);
+}
+
+.rev {
+  background: #a40503;
+  border-radius: 20px;
+  /* color: white; */
+}
+.pre {
+  background: #038ca4;
+  border-radius: 20px;
+}
+.sub {
+  background: #0e3b7d;
+  border-radius: 20px;
+  /* color: white; */
+}
+.butsty {
+  border-radius: 10px 0px 0px 0px;
+  width: 40px;
+  height: 40px;
+}
+.sem {
+  /* height: 430px; */
+}
+.jem {
+  /* position: absolute; */
+  bottom: 0;
+}
+/* .fix {
+  position: fixed !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+
+.fullscrn {
+  height: 100vh !important ;
+  width: 100%;
+  border: 2px solid #ff0000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.scroll {
+  margin: 4px, 4px, 4px, 4px;
+  padding: 20px;
+  background-color: white;
+  /* width: 800px; */
+
+  height: calc(100vh - 200px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+.zoom:hover {
+  position: relative;
+  /* top: -25px;
+  left: -35px; */
+  width: auto;
+  height: 500px;
+  display: flex;
+  z-index: 999;
+}

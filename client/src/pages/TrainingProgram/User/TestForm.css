@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.TestForm-Box
+{
+    /* border: 1px solid black; */
+    width: 97vw;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 2%;
+    height: auto;
+}
+.TestForm-Box-Heading
+{
+    height:auto;
+    /* border: 1px solid black; */
+    background-color: #6d0fef;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1%;
+}
+.TestForm-Box-Heading-Left
+{
+    margin-left: 5%;
+    margin-top: 1%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.TestForm-Box-Heading-Left-top
+{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.TestForm-Box-Heading-Right
+{
+    margin-left: 70%;
+    text-align: 15%;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:cursive;
+    padding-top: 2%;
+}
+.TestForm-Box-Heading-Left-bottom
+{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family:cursive;
+}
+.TestForm-Box-Body
+{
+    /* height: 600px; */
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+}
+.TestForm-Box-Body-details
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid brown; */
+    width: 80%;
+    text-align: left;
+}
+.TestForm-Box-Body-details-Box-Title
+{
+    font-size:25px;
+}
+.TestForm-Box-Body-details-Box-Title-Name
+{
+    font-size:25px;
+    color: #6d0fef;
+}
+.TestForm-Box-Body-details-Box
+{
+    padding: 5%;
+}
+.TestForm-Box-Body-details-BBox
+{
+    padding: 5%;
+    padding-top: 1%;
+}
+.TestForm-Box-Body-right
+{
+    /* border: 2px solid black; */
+    width: 20%;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-top: 2%;
+}
+.TestForm-Box-Body-right-Circle
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border: 2px solid rgb(31, 3, 158);
+    border-radius: 50%;
+    width: 200px;
+    height: 155px;
+}
+.TestForm-Box-Body-right-InnerCircle
+{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 9%;
+    height: 150px;
+    background-color: #6d0fef;
+    color: white;
+}
+.TestForm-Box-Body-right-InnerCircle-title
+{
+    padding-top: 30%;
+    text-align: center;
+
+}
+.TestForm-Box-Body-right-InnerCircle-score
+{
+    padding-top: 5%;
+    text-align: center;
+}
+.TestForm-Main-Body
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 10px;
+}
+.TestForm-Main-Body-Skills
+{
+    display: flex;
+    flex-direction: row;
+}
+.TestForm-Main-Body-Skills-left
+{
+
+    padding-left: 2%;
+    margin-right: 65%;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+.TestForm-Main-Body-Skills-right
+{
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+.TestForm-Main-Body-box-title
+{
+
+font-size: 30px;
+font-weight: bolder;
+font-family:cursive;
+text-align: left;
+padding-left: 5%;
+color: #6d0fef;
+
+}
+.TestForm-Main-Body-box
+{
+
+padding-top: 1%;
+padding-bottom: 1%;
+}
+.TestForm-Main-Body-box-Content
+{
+    padding: 5%;
+    padding-bottom: 0%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.TestForm-Main-Body-box-Content-desc
+{
+    width: 50%;
+    /* border: 1px solid beige; */
+    text-align: left;
+    margin-right: 40%;
+    font-size: 15px;
+}
+.TestForm-Main-Body-box-Content-Marks
+{
+    width: 10%;
+    /* border: 1px solid beige; */
+    text-align: right;
+    font-size: 25px;
+    color: #6d0fef;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    
+}

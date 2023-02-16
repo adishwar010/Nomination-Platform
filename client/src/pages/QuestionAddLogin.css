@@ -1,0 +1,60 @@
+.main-head {
+  height: 150px;
+  background: #fff;
+}
+
+.sidenavs {
+  height: 100%;
+  background-color: rgb(47, 228, 235) !important;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.main {
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavs {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login-form {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    margin-left: 40%;
+  }
+
+  .sidenavs {
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+
+  .login-form {
+    margin-top: 50%;
+  }
+}
+
+.login-main-text {
+  margin-top: 20%;
+  padding: 60px;
+  color: #fff;
+}
+
+.login-main-text h2 {
+  font-weight: 300;
+}
+
+.btn-grey {
+  background-color: rgb(47, 228, 235) !important;
+  color: #fff;
+}

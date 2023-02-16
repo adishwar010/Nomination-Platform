@@ -1,0 +1,21 @@
+.styles{
+    display : flex;
+    justify-content : center;
+    flex-direction : column;
+    align-items : center;
+    background-color: rgb(216, 212, 212);
+}
+.styles>h2{
+    color: rgb(71, 52, 214);
+}
+.styles>h4{
+    color: rgb(34, 197, 12);
+}
+.styles>hr{
+    color: rgb(53, 40, 172);
+}
+.styles>p{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+}

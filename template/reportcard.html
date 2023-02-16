@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- <link rel="stylesheet" href="reportcard.css" /> -->
+    <title>Report Card</title>
+    <style>
+      .status {
+        background-color: #01569d;
+        color: white;
+      }
+      .box1 {
+        background: rgba(154, 157, 1, 0.08);
+        border: 1px solid #9a9d01;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: #9a9d01;
+        font-weight: 500;
+        width: 170px;
+        height: 80px;
+      }
+      .smallbox1 {
+        display: inline;
+        background: rgba(154, 157, 1, 0.15);
+        border-radius: 5px;
+      }
+      .box2 {
+        background: rgba(164, 5, 3, 0.08);
+        border: 1px solid #a40503;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: #a40503;
+        font-weight: 500;
+        width: 170px;
+        height: 80px;
+      }
+      .smallbox2 {
+        display: inline;
+        background: rgba(164, 5, 3, 0.15);
+        border-radius: 5px;
+      }
+      .box3 {
+        background: rgba(218, 123, 3, 0.08);
+        border: 1px solid #da7b03;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: #da7b03;
+        font-weight: 500;
+        width: 170px;
+        height: 80px;
+      }
+      .smallbox3 {
+        display: inline;
+        background: rgba(218, 123, 3, 0.15);
+        border-radius: 5px;
+      }
+      .box4 {
+        background: rgba(38, 166, 209, 0.08);
+        border: 1px solid #26a6d1;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: #26a6d1;
+        font-weight: 500;
+        width: 170px;
+        height: 80px;
+      }
+      .smallbox4 {
+        display: inline;
+        background: rgba(38, 166, 209, 0.15);
+        border-radius: 5px;
+      }
+      .resdwn {
+        background: #01569d;
+        box-shadow: 0px 20px 35px rgba(14, 59, 125, 0.2);
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border container border-dark mt-3 mb-3 rounded">
+      <div class="container-fluid">
+        <div class="row mt-3">
+          <div class="col-4">
+            <img src="logo.png" />
+          </div>
+          <div class="col-8">
+            <h3 class="pl-4 pt-3 text-left">DSAT - The Online Test</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid status mt-3">
+        <h5 class="text-center pt-2 pb-2">Result Status of DSAT Online Test</h5>
+      </div>
+
+      <div class="container-fluid text-center mt-4">
+        <h5>
+          Name :
+          <span class="text-danger" style="font-size: 22px">
+            {{user.name}}
+          </span>
+        </h5>
+        <h5>
+          Institution :
+          <span class="text-danger" style="font-size: 22px">
+            {user.institution}
+          </span>
+        </h5>
+        <h5>
+          Email :
+          <span class="text-danger" style="font-size: 22px">
+            {{user.email}}
+          </span>
+        </h5>
+        <h5>
+          Contact No. :
+          <span class="text-danger" style="font-size: 22px">
+            {{user.phone}}
+          </span>
+        </h5>
+        <h5>Result :</h5>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row text-center">
+          <div class="col">
+            <div class="box1 pt-3">
+              <div class="smallbox1 p-1"></div>
+              <br />
+              Correct : {{result.correct}}
+            </div>
+          </div>
+          <div class="col">
+            <div class="box2 pt-3">
+              <div class="smallbox2 p-1"></div>
+              <br />
+              Incorrect : {{result.incorrect}}
+            </div>
+          </div>
+          <div class="col">
+            <div class="box3 pt-3">
+              <div class="smallbox3 p-1"></div>
+              <br />
+              Not Attempted : {{result.incorrect}}
+            </div>
+          </div>
+          <div class="col">
+            <div class="box4 pt-3">
+              <div class="smallbox4 p-1"></div>
+              <br />
+              Total : {{result.total}}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="container"></div>
+      </div>
+
+      <!-- <div class="container text-center mt-5 pb-5">
+        <button class="btn resdwn text-white mr-3">Download</button>
+      </div> -->
+    </div>
+  </body>
+</html>
